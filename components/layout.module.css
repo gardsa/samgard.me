@@ -1,7 +1,27 @@
 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
   max-width: 36rem;
+  height: calc(100vh - 4rem);
   padding: 0 1rem;
-  margin: 3rem auto 6rem;
+  margin: 2rem auto 2rem;
+}
+
+@media (min-width: 480px) {
+  .container {
+    height: calc(100vh - 6rem);
+    margin: 3rem auto 3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    height: calc(100vh - 9rem);
+    margin: 3rem auto 6rem;
+  }
 }
 
 .header {
@@ -12,4 +32,26 @@
 
 .backToHome {
   margin: 3rem 0 0;
+}
+
+.footer nav ul {
+  display: flex;
+  justify-content: center;
+
+  padding-left: 0;
+  list-style: none;
+}
+
+.footerLink svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: 0 1rem;
+
+  fill: #000;
+  transition: all 0.2s ease-in-out;
+}
+
+.footerLink svg:hover {
+  fill: #d44500;
+  transform: scale(1.2);
 }

@@ -2,6 +2,10 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 
+import GithubSVG from '../components/github.svg'
+import LinkedInSVG from '../components/linkedin.svg'
+import TwitterSVG from '../components/twitter.svg'
+
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 
@@ -27,12 +31,20 @@ export default function Layout({ children, home }) {
               priority
               src='/images/profile.jpg'
               className={utilStyles.borderCircle}
-              height={144}
-              width={144}
+              height={180}
+              width={180}
               alt={name}
             />
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
-            <h2 className={`${utilStyles.headingLg} ${utilStyles.headingOrange}`}>
+            <h1
+              className={utilStyles.heading2Xl}
+              style={{ marginTop: '2rem', marginBottom: '0' }}
+            >
+              {name}
+            </h1>
+            <h2
+              className={`${utilStyles.headingLg} ${utilStyles.headingOrange}`}
+              style={{ marginTop: '0' }}
+            >
               {role}
             </h2>
           </>
@@ -66,6 +78,30 @@ export default function Layout({ children, home }) {
           </Link>
         </div>
       )}
+      <footer className={styles.footer}>
+        <nav>
+          <ul>
+            <li>
+              <a className={styles.footerLink} href='https://github.com/gardsa/'>
+                <GithubSVG />
+              </a>
+            </li>
+            <li>
+              <a
+                className={styles.footerLink}
+                href='https://www.linkedin.com/in/sam-gard-nz/'
+              >
+                <LinkedInSVG />
+              </a>
+            </li>
+            <li>
+              <a className={styles.footerLink} href='https://twitter.com/_ohmagard'>
+                <TwitterSVG />
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </footer>
     </div>
   )
 }
