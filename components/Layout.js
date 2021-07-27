@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Link from 'next/link'
 
 import GithubSVG from '../components/github.svg'
 import LinkedInSVG from '../components/linkedin.svg'
@@ -25,6 +24,23 @@ export default function Layout({ children, home }) {
         <meta name='twitter:card' content='summary_large_image' />
       </Head>
       <header className={styles.header}>
+        <nav className={styles.navigation}>
+          <a className={styles.primaryNavLink} href='/'>
+            Sam
+          </a>
+          <ul className={styles.navigationList}>
+            <li>
+              <a className={styles.secondaryNavLink} href='/blog'>
+                Blog
+              </a>
+            </li>
+            <li>
+              <a className={styles.secondaryNavLink} href='/resume'>
+                Resume
+              </a>
+            </li>
+          </ul>
+        </nav>
         {home ? (
           <>
             <Image
@@ -48,36 +64,9 @@ export default function Layout({ children, home }) {
               {role}
             </h2>
           </>
-        ) : (
-          <>
-            <Link href='/'>
-              <a>
-                <Image
-                  priority
-                  src='/images/profile.jpg'
-                  className={utilStyles.borderCircle}
-                  height={108}
-                  width={108}
-                  alt={name}
-                />
-              </a>
-            </Link>
-            <h2 className={utilStyles.headingLg}>
-              <Link href='/'>
-                <a className={utilStyles.colorInherit}>{name}</a>
-              </Link>
-            </h2>
-          </>
-        )}
+        ) : null}
       </header>
       <main>{children}</main>
-      {!home && (
-        <div className={styles.backToHome}>
-          <Link href='/'>
-            <a>← Back to home</a>
-          </Link>
-        </div>
-      )}
       <footer className={styles.footer}>
         <nav>
           <ul>

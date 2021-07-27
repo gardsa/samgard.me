@@ -9,10 +9,16 @@ export default function Home() {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.centerText}>
-        <p className={utilStyles.headingMd}>Coming soon!</p>
+        <p className={utilStyles.headingMd}>Hi, I'm Sam!</p>
+        <p>I'm a front-end developer working in Wellington NZ.</p>
         <p>
-          In the meantime, feel free to contact me at{' '}
-          <a href='mailto:hello@samgard.me'>hello@samgard.me</a>.
+          I'll be building out this site over time, with a blog and some personal
+          projects.
+        </p>
+        <p>
+          In the meantime, find me at{' '}
+          <a href='mailto:hello@samgard.me'>hello@samgard.me</a>, or via the social media
+          links below.
         </p>
       </section>
     </Layout>
