@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
 
-  max-width: 36rem;
+  max-width: 42rem;
   height: calc(100vh - 4rem);
   padding: 0 1rem;
   margin: 2rem auto 2rem;
@@ -28,6 +28,34 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-family: 'Raleway', Helvetica Neue, sans-serif;
+  font-weight: 600;
+}
+
+.navigationList {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  list-style: none;
+}
+
+.primaryNavLink {
+  font-size: 2rem;
+  line-height: 1.3;
+  letter-spacing: -0.05rem;
+}
+
+.secondaryNavLink {
+  margin-left: 1.5rem;
+  color: #000;
 }
 
 .backToHome {
