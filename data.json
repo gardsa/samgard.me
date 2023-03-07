@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "addressfinder-suggest",
+    "title": "Addressfinder Suggest",
+    "date": "November 2015 - February 2016",
+    "description": "Built and shipped AddressFinder's 'Suggest' feature to support crowd sourced data corrections.",
+    "link": "https://suggest.addressfinder.net",
+    "skills": ["Ruby on Rails"],
+    "image": ""
+  },
+  {
+    "slug": "aed-locations",
+    "title": "AED Locations",
+    "date": "November 2016 - February 2017",
+    "link": "https://aedlocations.co.nz/",
+    "description": "Rebuilt and streamlined the existing AED Locations web application.",
+    "skills": ["JavaScript", "HTML", "CSS/SASS", "Middleman"],
+    "image": ""
+  },
+  {
+    "slug": "lic",
+    "title": "Livestock Improvement Corporation",
+    "date": "November 2017 - January 2021",
+    "link": "https://shop.lic.co.nz/#/",
+    "description": "Suite of public and internal-facing micro front-ends integrated with back-end microservices, replacing legacy systems.\n - Replaced an MVP Ruby/Rails front-end with a React front-end\n- Contributed extensively to the private package library for shared React components\n- Implemented a “Three-Amigos” approach with the product owner and design team to solve design problems efficiently.",
+    "skills": ["React", "CSS", "HTML", "..."],
+    "image": ""
+  },
+  {
+    "slug": "lighthouse-funds",
+    "title": "Lighthouse Funds",
+    "date": "December 2020 - May 2021",
+    "link": "https://lighthousefunds.nz/",
+    "description": "A brochureware site built using the [JAMstack approach](https://abletech.nz/article/lighthouse-funds-going-retail-part-1/) with Next.js, Netlify and Prismic.\n- Selected appropriate technologies based on business requirements\n- Integrated with a number of third party services\n- Worked closely with the stakeholders and design team to deliver the site in the agreed timeframe",
+    "skills": ["React", "Next.js", "CSS/SASS???"],
+    "image": ""
+  }
+]

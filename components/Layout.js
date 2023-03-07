@@ -10,8 +10,8 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 
 const name = 'Sam Gard'
-const role = 'Front-End Developer'
-export const siteTitle = 'Sam Gard - Front-End Developer'
+const role = 'Senior Front-End Developer'
+export const siteTitle = 'Sam Gard - Senior Front-End Developer'
 
 export default function Layout({ children, home }) {
   return (
