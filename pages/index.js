@@ -9,10 +9,11 @@ export default function Home() {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.centerText}>
-        <p className={utilStyles.headingMd}>Coming soon!</p>
+        <p className={utilStyles.headingMd}>Portfolio coming soon!</p>
         <p>
           In the meantime, feel free to contact me at{' '}
-          <a href='mailto:hello@samgard.me'>hello@samgard.me</a>.
+          <a href='mailto:hello@samgard.me'>hello@samgard.me</a> or check out my{' '}
+          <a href='/sam-gard-resume.pdf'>resume</a>.
         </p>
       </section>
     </Layout>
