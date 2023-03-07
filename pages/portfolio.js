@@ -1,6 +1,8 @@
 import fsPromises from 'fs/promises'
 import path from 'path'
 
+import ReactMarkdown from 'react-markdown'
+
 import Head from 'next/head'
 import Layout, { siteTitle } from '../components/Layout'
 import utilStyles from '../styles/utils.module.css'
@@ -29,7 +31,8 @@ export default function Portfolio({ portfolioData }) {
               </a>
               <p>{pd.date}</p>
               {/* TODO: parse markdown */}
-              <p>{pd.description}</p>
+              <ReactMarkdown>{pd.description}</ReactMarkdown>
+              <h4>Key skills:</h4>
               <ul>
                 {pd.skills.map(skill => (
                   <li>{skill}</li>
