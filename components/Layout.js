@@ -20,7 +20,7 @@ export default function Layout({ children, home }) {
         <link rel='icon' href='/favicon.ico' />
         {/* TODO: come up with better description later */}
         <meta name='description' content={siteTitle} />
-        <meta property='og:image' content='https://www.samgard.me/images/profile.jpg' />
+        <meta property='og:image' content='https://www.samgard.me/images/profile.png' />
         <meta name='og:title' content={siteTitle} />
         <meta name='twitter:card' content='summary_large_image' />
       </Head>
@@ -29,7 +29,7 @@ export default function Layout({ children, home }) {
           <>
             <Image
               priority
-              src='/images/profile.jpg'
+              src='/images/profile.png'
               className={utilStyles.borderCircle}
               height={180}
               width={180}
@@ -53,7 +53,7 @@ export default function Layout({ children, home }) {
             <Link href='/'>
               <Image
                 priority
-                src='/images/profile.jpg'
+                src='/images/profile.png'
                 className={utilStyles.borderCircle}
                 height={108}
                 width={108}

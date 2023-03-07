@@ -6,6 +6,7 @@ import ReactMarkdown from 'react-markdown'
 import Head from 'next/head'
 import Layout, { siteTitle } from '../components/Layout'
 import utilStyles from '../styles/utils.module.css'
+import Image from 'next/image'
 
 // TODO: convert to Typescript
 
@@ -30,7 +31,7 @@ export default function Portfolio({ portfolioData }) {
                 <h3>{pd.title}</h3>
               </a>
               <p>{pd.date}</p>
-              {/* TODO: parse markdown */}
+              <Image src={pd.image} alt='' width='320' height='179' />
               <ReactMarkdown>{pd.description}</ReactMarkdown>
               <h4>Key skills:</h4>
               <ul>
