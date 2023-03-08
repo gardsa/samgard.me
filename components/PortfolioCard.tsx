@@ -26,6 +26,7 @@ export default function PortfolioCard({
             alt=''
             width={2560}
             height={1432}
+            priority
           />
         </div>
         <div className='h-auto px-6 pt-6 pb-16'>
