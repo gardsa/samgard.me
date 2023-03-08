@@ -2,45 +2,49 @@
 @tailwind components;
 @tailwind utilities;
 
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: 'Lato', Helvetica Neue, sans-serif;
+@layer base {
+  html,
+  body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', Helvetica Neue, sans-serif;
 
-  line-height: 1.6;
-  font-size: 18px;
-}
+    line-height: 1.6;
+    font-size: 18px;
+    @apply text-offBlack;
+  }
 
-* {
-  box-sizing: border-box;
-}
+  * {
+    box-sizing: border-box;
+  }
 
-main {
-  flex: 1 0 auto;
-}
+  main {
+    flex: 1 0 auto;
+  }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Raleway', Helvetica Neue, sans-serif;
-}
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  nav {
+    font-family: 'Raleway', Helvetica Neue, sans-serif;
+  }
 
-a {
-  color: #d44500;
-  text-decoration: none;
-}
+  a {
+    color: #d44500;
+    text-decoration: none;
+  }
 
-a:hover {
-  text-decoration: underline;
-}
+  a:hover {
+    text-decoration: underline;
+  }
 
-img {
-  max-width: 100%;
-  display: block;
+  img {
+    max-width: 100%;
+    display: block;
+  }
 }
 
 @layer utilities {
@@ -69,6 +73,7 @@ img {
   .headingMd {
     font-size: 1.2rem;
     line-height: 1.5;
+    margin: 1rem 0;
   }
 
   .borderCircle {
@@ -76,7 +81,30 @@ img {
     border-radius: 9999px;
   }
 
+  .headerHeadingLink {
+    @apply transition-all duration-200 text-pomegranate-500 hover:text-pomegranate-600 hover:no-underline;
+  }
+
+  .headerNavLink {
+    @apply mx-4 text-offBlack transition-all duration-200 hover:text-pomegranate-500 hover:no-underline;
+  }
+
   .footerSvgLink {
-    @apply w-6 h-6 mx-4 fill-black transition-all duration-200 hover:fill-orange hover:scale-125;
+    @apply w-6 h-6 mx-4 fill-black transition-all duration-200 hover:fill-pomegranate-500 hover:scale-125;
+  }
+}
+
+@layer components {
+  .portfolioCard {
+    @apply relative top-0 max-w-sm bg-white border border-gray-200 rounded-lg shadow transition-all duration-200;
+    /* transition: all 0.2s ease-out;
+    box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+    top: -4px;
+    border: 1px solid #cccccc;
+    background-color: white; */
+  }
+
+  .portfolioCard:hover {
+    @apply shadow-[0px_4px_8px_rgba(38,38,38,0.2)] -top-[6px] border-pomegranate-500;
   }
 }
