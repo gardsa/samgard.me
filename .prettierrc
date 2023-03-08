@@ -1,17 +1,15 @@
 {
   "arrowParens": "avoid",
   "bracketSpacing": true,
-  "htmlWhitespaceSensitivity": "css",
-  "insertPragma": false,
-  "jsxBracketSameLine": false,
+  "bracketSameLine": false,
   "jsxSingleQuote": true,
-  "printWidth": 90,
-  "proseWrap": "preserve",
+  "printWidth": 80,
   "quoteProps": "as-needed",
-  "requirePragma": false,
   "semi": false,
   "singleQuote": true,
   "tabWidth": 2,
-  "trailingComma": "es5",
-  "useTabs": false
+  "trailingComma": "none",
+  "useTabs": false,
+  "importOrder": ["^components/(.*)$", "^styles/(.*)$", "^[./]"],
+  "importOrderSeparation": true
 }
