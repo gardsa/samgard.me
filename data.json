@@ -21,7 +21,12 @@
     "title": "COVID-19 Contact Tracing Form & Request RATS",
     "date": "November 2021 - May 2022",
     "link": "https://app.tracingform.covid19.health.nz/",
-    "description": "Two public-facing, high-traffic applications built in a tight timeframe as part of the New Zealand Government’s COVID-19 response.\n- Built a multitude of form components to WCAG 2.1\n- Defined a pattern to generate a complex multi-step form wizard\n- Collaborated with the in-house UX/UI team to deliver a consistent and efficiently-developed end product",
+    "description": "Two public-facing, high-traffic applications built in a tight timeframe as part of the New Zealand Government’s COVID-19 response.",
+    "achievements": [
+      "Built a multitude of form components to WCAG 2.1",
+      "Defined a pattern to generate a complex multi-step form wizard",
+      "Collaborated with the in-house UX/UI team to deliver a consistent and efficiently-developed end product"
+    ],
     "skills": ["React", "TypeScript", "CSS"],
     "image": "/images/covid19-tracing-form.png"
   },
@@ -30,7 +35,15 @@
     "title": "Goldie Wealth",
     "date": "May 2021 - November 2021",
     "link": "https://app.getgoldie.co.nz",
-    "description": "A front-end application built to face and support the back-end trading engine.\n- Defined core user tasks\n- Created user flows and wireframes\n- Produced a clickable prototype\n- Worked closely with the brand and strategy teams involved\n- Sole front-end developer that built the React/TypeScript SPA\n- Provided guidance on building the statically generated marketing site",
+    "description": "A front-end single-page application built to face and support the back-end trading engine.",
+    "achievements": [
+      "Defined core user tasks",
+      "Created user flows and wireframes",
+      "Produced a clickable prototype",
+      "Worked closely with the brand and strategy teams involved",
+      "Sole front-end developer that built the React/TypeScript SPA",
+      "Provided guidance on building the statically generated marketing site"
+    ],
     "skills": [
       "React",
       "TypeScript",
@@ -48,7 +61,12 @@
     "title": "Lighthouse Funds",
     "date": "December 2020 - May 2021",
     "link": "https://lighthousefunds.nz/",
-    "description": "A brochureware site built using the [JAMstack approach](https://abletech.nz/article/lighthouse-funds-going-retail-part-1/) with Next.js, Netlify and Prismic.\n- Selected appropriate technologies based on business requirements\n- Integrated with a number of third party services\n- Worked closely with the stakeholders and design team to deliver the site in the agreed timeframe",
+    "description": "A brochureware site built using the [JAMstack approach](https://abletech.nz/article/lighthouse-funds-going-retail-part-1/) with Next.js, Netlify and Prismic.",
+    "achievements": [
+      "Selected appropriate technologies based on business requirements",
+      "Integrated with a number of third party services",
+      "Collaborated effectively with the stakeholders and design team to deliver the site in the agreed timeframe"
+    ],
     "skills": ["React", "Next.js", "Styled JSX"],
     "image": "/images/lighthouse-funds.png"
   },
@@ -57,7 +75,12 @@
     "title": "Livestock Improvement Corporation",
     "date": "November 2017 - January 2021",
     "link": "https://shop.lic.co.nz/#/",
-    "description": "Suite of public and internal-facing micro front-ends integrated with back-end microservices, replacing legacy systems.\n - Replaced an MVP Ruby/Rails front-end with a React front-end\n- Contributed extensively to the private package library for shared React components\n- Implemented a “Three-Amigos” approach with the product owner and design team to solve design problems efficiently.",
+    "description": "Suite of public and internal-facing micro front-ends integrated with back-end microservices, replacing legacy systems.",
+    "achievements": [
+      "Replaced an MVP Ruby/Rails front-end with a React front-end",
+      "Contributed extensively to the private package library for shared React components",
+      "Implemented a successful and applauded approach with the product owner and design team to solve design problems efficiently, with minimal rework and unnecessary iteration"
+    ],
     "skills": ["React", "CSS", "Apollo GraphQL"],
     "image": "/images/lic.png"
   },
