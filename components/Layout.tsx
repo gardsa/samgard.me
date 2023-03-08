@@ -96,6 +96,9 @@ export default function Layout({
             </li>
           </ul>
         </nav>
+        <p className='text-xs text-center mt-8'>
+          © {new Date().getFullYear()} Sam Gard.
+        </p>
       </footer>
     </div>
   )
