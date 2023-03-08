@@ -19,7 +19,6 @@ export default function Portfolio({
       </Head>
 
       <h2 className='headingLg mb-8'>Portfolio</h2>
-      {/* TODO: update to use Tailwind */}
       <section className='grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3'>
         {portfolioData?.map(pd => {
           // TODO: only show key information here

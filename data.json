@@ -4,7 +4,7 @@
     "title": "Trees That Count",
     "date": "May 2022 - December 2022",
     "link": "https://www.treesthatcount.co.nz/",
-    "description": "...",
+    "description": "A complete rebuild of an existing legacy application using Next.js, TypeScript and Tailwind.",
     "skills": [
       "React",
       "Next.js",
