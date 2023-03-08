@@ -61,7 +61,8 @@
     "title": "Lighthouse Funds",
     "date": "December 2020 - May 2021",
     "link": "https://lighthousefunds.nz/",
-    "description": "A brochureware site built using the [JAMstack approach](https://abletech.nz/article/lighthouse-funds-going-retail-part-1/) with Next.js, Netlify and Prismic.",
+    "otherLink": "TODO: https://abletech.nz/article/lighthouse-funds-going-retail-part-1/",
+    "description": "A brochureware site built using the JAMstack approachwith Next.js, Netlify and Prismic.",
     "achievements": [
       "Selected appropriate technologies based on business requirements",
       "Integrated with a number of third party services",

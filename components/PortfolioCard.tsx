@@ -34,7 +34,7 @@ export default function PortfolioCard({
           <ReactMarkdown className='text-offBlack text-sm mb-3 font-normal'>
             {description}
           </ReactMarkdown>
-          <Link
+          {/* <Link
             href='#'
             className='absolute bottom-6 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-pomegranate-500 rounded-lg hover:bg-pomegranate-700 focus:ring-4 focus:outline-none focus:ring-pomegranate-300 '
           >
@@ -52,7 +52,7 @@ export default function PortfolioCard({
                 clipRule='evenodd'
               ></path>
             </svg>
-          </Link>
+          </Link> */}
         </div>
       </Link>
     </div>
