@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato', Helvetica Neue, sans-serif;
+
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Raleway', Helvetica Neue, sans-serif;
+}
+
+a {
+  color: #d44500;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+@layer utilities {
+  .heading2Xl {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    font-weight: 800;
+    letter-spacing: -0.05rem;
+    margin: 1rem 0;
+  }
+
+  .headingXl {
+    font-size: 2rem;
+    line-height: 1.3;
+    font-weight: 800;
+    letter-spacing: -0.05rem;
+    margin: 1rem 0;
+  }
+
+  .headingLg {
+    font-size: 1.5rem;
+    line-height: 1.4;
+    margin: 1rem 0;
+  }
+
+  .headingMd {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+
+  .borderCircle {
+    border: 4px solid #f2511b !important;
+    border-radius: 9999px;
+  }
+
+  .footerSvgLink {
+    @apply w-6 h-6 mx-4 fill-black transition-all duration-200 hover:fill-orange hover:scale-125;
+  }
+}
