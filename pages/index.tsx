@@ -1,4 +1,5 @@
 import Head from 'next/head'
+
 import Layout, { siteTitle } from 'components/Layout'
 
 export default function Home() {
@@ -9,9 +10,9 @@ export default function Home() {
       </Head>
       <section className='text-center max-w-2xl'>
         <p>
-          I am a creative and resourceful front-end developer with over five
+          I am a creative and resourceful front-end developer with over six
           years of experience building production-grade applications in complex
-          environments. I have keen attention to detail and a pragmatic
+          environments. I have a keen eye for detail and a pragmatic
           problem-solving approach. I’m passionate about delivering performant
           solutions that meet stakeholder requirements, delight users, and are
           easily maintainable. I seek to continually improve my workflow, guide
