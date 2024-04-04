@@ -5,6 +5,6 @@ export interface PortfolioItem {
   link: string
   description: string
   achievements: string[]
-  skills: string[]
+  skills?: string[]
   image: string
 }

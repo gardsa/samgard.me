@@ -1,0 +1,34 @@
+[
+  {
+    "slug": "cssconf-jsconf-australia-2018",
+    "title": "CSSConf & JSConf Australia 2018",
+    "date": "11 April 2018",
+    "link": "https://abletech.nz/article/cssconf-jsconf-australia-2018/",
+    "description": "Read highlights from Melbourne. Including grid-based layout, web accessibility, faster fonts, WebUSB APIs, abstract syntax trees, error handling and much more.",
+    "image": "/images/css-conf.jpeg"
+  },
+  {
+    "slug": "lighthouse-funds-going-retail-part-1",
+    "title": "Lighthouse Funds Going Retail: Part 1",
+    "date": "18 March 2022",
+    "link": "https://abletech.nz/article/lighthouse-funds-going-retail-part-1/",
+    "description": "JAMstack with Next.js, Netlify and Prismic CMS",
+    "image": "/images/lighthouse-funds-1.webp"
+  },
+  {
+    "slug": "lighthouse-funds-going-retail-part-2",
+    "title": "Lighthouse Funds Going Retail: Part 2",
+    "date": "18 March 2022",
+    "link": "https://abletech.nz/article/lighthouse-funds-going-retail-part-2/",
+    "description": "JAMstack with Next.js, Netlify and Prismic CMS",
+    "image": "/images/lighthouse-funds-2.webp"
+  },
+  {
+    "slug": "lighthouse-funds-going-retail-part-3",
+    "title": "Lighthouse Funds Going Retail: Part 3",
+    "date": "18 March 2022",
+    "link": "https://abletech.nz/article/lighthouse-funds-going-retail-part-3/",
+    "description": "JAMstack with Next.js, Netlify and Prismic CMS",
+    "image": "/images/lighthouse-funds-3.webp"
+  }
+]

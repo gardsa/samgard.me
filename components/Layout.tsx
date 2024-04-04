@@ -2,10 +2,10 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 
+import { ReactNode } from 'react'
 import GithubSVG from './svgs/github.svg'
 import LinkedInSVG from './svgs/linkedin.svg'
 import TwitterSVG from './svgs/twitter.svg'
-import { ReactNode } from 'react'
 
 const name = 'Sam Gard'
 // eslint-disable-next-line quotes
@@ -42,6 +42,11 @@ export default function Layout({
             <li>
               <Link className='headerNavLink' href='/portfolio'>
                 Portfolio
+              </Link>
+            </li>
+            <li>
+              <Link className='headerNavLink' href='/articles'>
+                Articles
               </Link>
             </li>
             <li>

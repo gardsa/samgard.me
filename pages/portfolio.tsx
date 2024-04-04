@@ -1,11 +1,10 @@
-// TODO: get import sorting working
 import fsPromises from 'fs/promises'
+import Head from 'next/head'
 import path from 'path'
 
-import Head from 'next/head'
+import Card from 'components/Card'
 import Layout, { siteTitle } from 'components/Layout'
 import { PortfolioItem } from 'types'
-import PortfolioCard from 'components/PortfolioCard'
 
 export default function Portfolio({
   portfolioData
@@ -23,7 +22,7 @@ export default function Portfolio({
         {portfolioData?.map(pd => {
           // TODO: only show key information here
           // display full information on dynamic routes based on object slug
-          return <PortfolioCard key={pd.slug} {...pd} />
+          return <Card key={pd.slug} {...pd} />
           // return (
           //   <div key={pd.slug}>
           //     <a href={pd.link} target='_blank' rel='noreferrer'>
@@ -48,7 +47,7 @@ export default function Portfolio({
 
 // Fetching portfolio data from the JSON file
 export async function getStaticProps() {
-  const filePath = path.join(process.cwd(), 'data.json')
+  const filePath = path.join(process.cwd(), 'portfolio.json')
   const jsonData = await fsPromises.readFile(filePath)
   const portfolioData = JSON.parse(jsonData.toString())
 
