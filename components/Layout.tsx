@@ -69,7 +69,7 @@ export default function Layout({
           <>
             <Image
               priority
-              src='/images/profile.png'
+              src='/images/sam.png'
               className='borderCircle'
               height={180}
               width={180}
