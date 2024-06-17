@@ -39,11 +39,11 @@ export default function Layout({
             <h1 className='heading2Xl'>{name}</h1>
           </Link>
           <ul className='flex justify-center pl-0 list-none'>
-            <li>
+            {/* <li>
               <Link className='headerNavLink' href='/portfolio'>
                 Portfolio
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link className='headerNavLink' href='/articles'>
                 Articles
@@ -60,7 +60,7 @@ export default function Layout({
             </li>
             <li>
               <Link className='headerNavLink' href='mailto:hello@samgard.me'>
-                Contact me
+                Contact
               </Link>
             </li>
           </ul>
