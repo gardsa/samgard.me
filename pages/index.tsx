@@ -14,7 +14,7 @@ export default function Home() {
         </p>
         <br/>
         <p>
-          With over seven years of experience as a front-end developer, I have successfully delivered a range of web applications for various clients and sectors, from government agencies to education providers. I am currently leading a team of front-end developers at LCI Education, where I am responsible for maintaining a WCAG 2.1-compliant component library and implementing a DXCP solution using MACH architecture principles.
+          With over seven years of experience as a front-end developer, I have successfully delivered a range of web applications for various clients and sectors, from government agencies to education providers. I am currently building and maintaining components as part of the design system at Thinkific in Vancouver BC, where we're focusing on creating well-documented, accessible, and mature components that can be used across our entire suite of products.
         </p>
       </section>
     </Layout>
